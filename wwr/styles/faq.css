@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Bodoni:wght@700&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-family: "IM Fell French Canon SC";
+    font-size: 10px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.accordion-item{
+    background-color: #283042;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+.accordion-link{
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    background-color:#283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.accordion-link i{
+    color: #e7d5ff;
+    padding: .5rem;
+}
+.accordion-link .ion-md-remove {
+    display: none;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+.answer::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.answer p{
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+.accordion-item:target .accordion-link .ion-md-add{
+    display: none;
+}
+.accordion-item:target .accordion-link .ion-md-remove{
+    display: block;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -13,10 +95,6 @@ nav a {
     text-align: center;
     font-family: Tahoma, 'Times New Roman';
     color: white;
-}
-.button-box {
-    text-align: center;
-    font-family:Tahoma, 'Times New Roman';
 }
 main section {
     text-align: center;
@@ -39,24 +117,7 @@ header {
     grid-template-columns: 150px auto;
     background-color: #5b6155;
 }
-nav a:hover {
-    background-color: black;
-    color: white;
-}
-.book, .join {
-    background-color: #d6c4a8;
-    color: black;
-    text-decoration: none;
-    font-family:Tahoma, 'Times New Roman';
-    font-size: 18px; 
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.book:hover, .join:hover {
-    background-color: #eee2ce;
-    color: black;
-}
+
 .msg {
     background-color: #707365;
     line-height: 1.5em;
@@ -68,7 +129,6 @@ nav a:hover {
 footer {
     background-color: #707365;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,17 +137,6 @@ footer {
     color: black;
     font-size: 2em;
     margin-top: 10px;
-}
-h4 {
-    color: black;
-}
-.msg h2 {
-    color: #eee2ce;
-}
-.msg p {
-    color: #eee2ce;
-    font-size: .8em;
-    padding-bottom: 15px;
 }
 footer h3 {
     color: #eee2ce;
