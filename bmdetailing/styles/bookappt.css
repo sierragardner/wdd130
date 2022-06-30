@@ -1,0 +1,87 @@
+#content {
+    max-width: 20000px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Bungee', 'Times New Roman';
+    padding: 30px;
+    font-size: 30px;
+}
+main section {
+    text-align: center;
+}
+body {
+    background-color: #e1f3ff; 
+    font-family: 'Bungee', 'Times New Roman';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#2874a7;
+}
+nav a:hover {
+    background-color: #1a5379;
+    color: black;
+}
+footer {
+    background-color: #2874a7;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3 {
+    font-family: 'Bungee', 'Times New Roman';
+    color: white;
+}
+footer a {
+    font-family: 'Bungee', 'Times New Roman';
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+p {
+    font-family: 'Itim', 'Times New Roman';
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#submission {
+    border-radius: 50%;
+    text-align: center;
+    border: 10px solid #1a5379;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #707365;
+}
+.thename, .theemail, .thenumber, .theservice, .button {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+}
