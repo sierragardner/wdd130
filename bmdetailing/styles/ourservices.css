@@ -119,21 +119,21 @@ li {
 }
 .basic-card h2 {
     position: absolute;
-    top: 6%;
+    top: .5%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 3px black;
 }
 .listical1 {
     position: absolute;
-    top: 17%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 3px black;
 }
 .express-card h2 {
     position: absolute;
-    top: 41%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 3px black;
@@ -147,7 +147,7 @@ li {
 }
 .deluxe-card h2 {
     position: absolute;
-    top: 78%;
+    top: 76%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 3px black;
