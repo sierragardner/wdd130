@@ -126,8 +126,8 @@ li {
 }
 .listical1 {
     position: absolute;
-    top: 15%;
-    left: 50%;
+    top: 24%;
+    left: 47%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 3px black;
 }
@@ -140,8 +140,8 @@ li {
 }
 .listical2 {
     position: absolute;
-    top: 52%;
-    left: 50%;
+    top: 57%;
+    left: 47%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 3px black;
 }
@@ -154,8 +154,8 @@ li {
 }
 .listical3 {
     position: absolute;
-    top: 87%;
-    left: 50%;
+    top: 93%;
+    left: 49%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 3px black;
 }
